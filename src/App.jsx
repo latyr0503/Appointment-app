@@ -1,18 +1,13 @@
+import React from 'react';
+import HeaderPage from "./components/HeaderPage";
 
-import './App.css'
 
 function App() {
- 
-
   return (
-    <>
-      
-        <p>
-         STARTING PROJECT...
-        </p>
-      
-    </>
-  )
+    <div className="App">
+      <HeaderPage />
+    </div>
+  );
 }
 
-export default App
+export default App;
