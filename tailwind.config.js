@@ -12,14 +12,21 @@ export default {
       },
       backgroundColor: {
         bcButtonHeader: 'rgba(25, 152, 211, 1)',
+        bcInputField: 'rgba(245, 245, 245, 1)',
       },
       colors: {
         colorLinkHeader: 'rgba(47, 47, 47, 1)',
-        colorButtonHeader: 'rgba(255, 255, 255, 1)',           
+        colorButtonHeader: 'rgba(255, 255, 255, 1)',  
+        colorTitleLoginPage : 'rgba(0, 0, 0, 1)',
+                 
       },
       borderRadius: {
         '7px': '7px',
       },
+      lineHeight: {
+        'lh': '50px',
+        
+      }
     },
   },
   plugins: [],
