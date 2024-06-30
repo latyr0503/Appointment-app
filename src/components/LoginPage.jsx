@@ -11,8 +11,14 @@ import rectangle7 from '../assets/images/Rectangle 7.png';
 export default function LoginPage() {
     const navigate = useNavigate();
 
+    //Function navigation to registration
     const handleSignUpPageClick = () => {
       navigate('/registration'); 
+    };
+
+    //function navigate to dashbord
+    const handleDashboardPageClick = () => {
+      navigate('/dashboard'); 
     };
 
   return (
@@ -42,7 +48,7 @@ export default function LoginPage() {
             <button
               className="bg-blue-500 text-white px-3 py-2 rounded-7px hover:bg-blue-700 focus:outline-none focus:shadow-outline w-[500px] h-[50px] -ml-6"
               type="button"
-              
+              onClick={handleDashboardPageClick}
             >
               Se connecter
             </button>
@@ -51,6 +57,7 @@ export default function LoginPage() {
             <button
               className="bg-colorLinkHeader text-white px-3 py-2 rounded-7px hover:bg-black focus:outline-none focus:shadow-outline w-[500px] h-[50px] flex items-center justify-center -ml-6"
               type="button "
+              onClick={handleDashboardPageClick}
             >
               Continuer avec Google
               <img src={googleLogo} alt="google logo" className="ml-2 w-[24px] h-[24px]" />
