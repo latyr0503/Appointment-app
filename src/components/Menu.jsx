@@ -53,7 +53,7 @@ export default function Menu() {
               icon={faCalendar}
               className="text-[#1998D3] text-[16px]"
             />
-            <Link className="text-white ml-2 text-[16px]" to="/RendezVous">
+            <Link className="text-white ml-2 text-[16px]" to="/dashboard/my-appointments">
               Mes rendez-vous
             </Link>
           </li>
@@ -62,7 +62,7 @@ export default function Menu() {
               icon={faUser}
               className="text-[#1998D3] text-[16px]"
             />
-            <Link className="text-white text-[16px] ml-2" to="/Patient">
+            <Link className="text-white text-[16px] ml-2" to="/dashboard/my-patients">
               Mes patients
             </Link>
           </li>
@@ -71,7 +71,7 @@ export default function Menu() {
               icon={faCircleUser}
               className="text-[#1998D3] text-[16px]"
             />
-            <Link className="text-white text-[16px] ml-2" to="/MonCompte">
+            <Link className="text-white text-[16px] ml-2" to="/dashboard/my-account">
               Mon compte
             </Link>
           </li>
