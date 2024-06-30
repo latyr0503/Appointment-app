@@ -10,7 +10,19 @@ import rectangle7 from '../assets/images/Rectangle 7.png';
 
 export default function SignUpPage() {
   
-  // 
+  //Nagate to LoginPage
+  const navigate = useNavigate();
+
+    //Function navigation to registration
+    const handleLoginPageClick = () => {
+      navigate('/login'); 
+    };
+
+    //Founction nagation to dashboard when you click on LOGIN with GLOGLE
+    const handleToDashboardPageClick = () => {
+      navigate('/dashboard'); 
+    };
+
 
   return (
     <>
@@ -55,7 +67,7 @@ export default function SignUpPage() {
             <button
               className="bg-blue-500 text-white px-3 py-2 rounded-7px hover:bg-blue-700 focus:outline-none focus:shadow-outline w-[500px] h-[50px] -ml-6"
               type="button"
-             
+              onClick={handleLoginPageClick}
             >
               S'inscrire
             </button>
@@ -64,6 +76,7 @@ export default function SignUpPage() {
             <button
               className="bg-colorLinkHeader hover:bg-black text-white px-3 py-2 rounded-7px  focus:outline-none focus:shadow-outline w-[500px] h-[50px] flex items-center justify-center -ml-6"
               type="button "
+              onClick={handleToDashboardPageClick}
             >
               Continuer avec Google
               <img src={googleLogo} alt="google logo" className="ml-2 w-[24px] h-[24px]" />
