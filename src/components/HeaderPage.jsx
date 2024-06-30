@@ -10,9 +10,6 @@ const HeaderPage = () => {
     navigate('/login'); 
   };
 
-
-
-
   return (
     <header className="bg-neutral-50 w-full h-auto">
       <nav className="flex flex-col md:flex-row justify-between items-center h-20 px-6">
