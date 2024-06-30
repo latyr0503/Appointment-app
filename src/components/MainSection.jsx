@@ -6,7 +6,6 @@ import rectangle6 from '../assets/images/Rectangle 6.png';
 import rectangle7 from '../assets/images/Rectangle 7.png';
 import { useNavigate } from 'react-router-dom';
 
-
 const MainSection = () => {
 
   const navigate = useNavigate();
