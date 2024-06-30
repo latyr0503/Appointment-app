@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "./Menu";
-import { BsFillBellSlashFill } from "react-icons/bs";
+import { FaBell } from "react-icons/fa";
+
 import profil from "../assets/images/profil.png";
 import logoCmpagny from "../assets/images/RVS 1.png";
 import { Link } from "react-router-dom";
@@ -24,9 +25,9 @@ export default function Dashboard() {
               perferendis nam iste alias nulla tempore in eligendi ?
             </p>
           </div>
-          <div className="flex items-center gap-3 ml-24 mt-[-20px] ">
-            <BsFillBellSlashFill className="text-2xl ml-20 text-red-700 " />
-            <img className="w-16 " src={profil} alt="profil photo" />
+          <div className="flex items-center gap-3 ml-36  mt-[-20px] ">
+          <FaBell className="text-2xl text-red-600 mx-10 font-bold" />
+            <img className="w-16 ml-[-20px]" src={profil} alt="profil photo " />
           </div>
         </div>
 
@@ -42,7 +43,7 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="text-center mt-5">
-              <Link to="/RendezVous">
+              <Link to="/dashboard/my-appointments">
                 {" "}
                 <h1 className="text-white text-2xl">Listes des rendez-vous</h1>
               </Link>
@@ -59,7 +60,7 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="text-center mt-5">
-              <Link to="/RendezVous">
+              <Link to="/dashboard/my-appointments">
                 {" "}
                 <h1 className="text-white text-2xl">Listes des rendez-vous</h1>
               </Link>
@@ -76,7 +77,7 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="text-center mt-5">
-              <Link to="/RendezVous">
+              <Link to="/dashboard/my-appointments">
                 {" "}
                 <h1 className="text-white text-2xl">Listes des rendez-vous</h1>
               </Link>
@@ -92,7 +93,7 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="text-center mt-5">
-              <Link to="/RendezVous">
+              <Link to="/dashboard/my-appointments">
                 {" "}
                 <h1 className="text-white text-2xl">Listes des rendez-vous</h1>
               </Link>
