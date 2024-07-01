@@ -2,15 +2,15 @@ import React from "react";
 import logoCompagny from "../assets/images/RVS 1.png";
 import profil from "../assets/images/profil.png";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faTableList,
-  faUser,
-  faCalendar,
-  faCircleUser,
-  faRightToBracket,
-} from "@fortawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faHouse,
+//   faTableList,
+//   faUser,
+//   faCalendar,
+//   faCircleUser,
+//   faRightToBracket,
+// } from "@fortawesome/free-solid-svg-icons";
 
 export default function Menu() {
   return (
@@ -26,10 +26,10 @@ export default function Menu() {
         </Link>
         <Link to="/dashboard">
           <button className="flex items-center justify-center mb-5 gap-3 p-5 w-full bg-white">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faTableList}
               className="text-sky-900 text-3xl"
-            />
+            /> */}
             <span className="font-semibold text-sky-900">Tableau de bord</span>
           </button>
         </Link>
@@ -40,37 +40,37 @@ export default function Menu() {
         />
         <ul className="flex flex-col gap-3 text-lg font-semibold items-center p-4">
           <li className="flex items-center w-full mb-4 ml-32">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faHouse}
               className="text-[#1998D3] text-[16px]"
-            />
+            /> */}
             <Link className="text-white text-[16px] ml-2" to="/dashboard">
               Accueil
             </Link>
           </li>
           <li className="flex items-center w-full mb-4 ml-32">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faCalendar}
               className="text-[#1998D3] text-[16px]"
-            />
+            /> */}
             <Link className="text-white ml-2 text-[16px]" to="/dashboard/my-appointments">
               Mes rendez-vous
             </Link>
           </li>
           <li className="flex items-center w-full mb-4 ml-32">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faUser}
               className="text-[#1998D3] text-[16px]"
-            />
+            /> */}
             <Link className="text-white text-[16px] ml-2" to="/dashboard/my-patients">
               Mes patients
             </Link>
           </li>
           <li className="flex items-center w-full mb-4 ml-32">
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faCircleUser}
               className="text-[#1998D3] text-[16px]"
-            />
+            /> */}
             <Link className="text-white text-[16px] ml-2" to="/dashboard/my-account">
               Mon compte
             </Link>
@@ -78,10 +78,10 @@ export default function Menu() {
         </ul>
       </div>
       <div className="flex flex-col items-center mb-5">
-        <FontAwesomeIcon
+        {/* <FontAwesomeIcon
           icon={faRightToBracket}
           className="text-[#1998D3] mb-1 text-lg mt-4"
-        />
+        /> */}
         <Link to="/Home" className="text-white">
           Déconnexion
         </Link>
