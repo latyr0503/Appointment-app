@@ -1,6 +1,6 @@
 import React from "react";
-import { FaArrowCircleRight, FaBell } from "react-icons/fa";
-import { CiSearch } from "react-icons/ci";
+//import { FaArrowCircleRight, FaBell } from "react-icons/fa";
+//import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import profil from "../assets/images/profil.png";
 import Menu from "./Menu";

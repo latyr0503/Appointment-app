@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
-import { FaBell } from "react-icons/fa";
+//import { FaBell } from "react-icons/fa";
 
 import profil from "../assets/images/profil.png";
 import logoCmpagny from "../assets/images/RVS 1.png";
